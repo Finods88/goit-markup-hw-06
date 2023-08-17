@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .modal {
+    width: 310px;
+  }
+}
+
 @media screen and (min-width: 320px) {
   .container {
     max-width: 426px;
@@ -119,7 +125,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg-tab.jpg);
-    max-width: 768px;
+    max-width: 1157px;
   }
 
   @media (min-divice-pixel-ratio: 2),
@@ -424,10 +430,12 @@
 
   .footer-logo-case {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .footer-social {
     margin-right: 80px;
+    margin-bottom: 0;
   }
 
   .footer-text {

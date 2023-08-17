@@ -380,7 +380,7 @@ textarea {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg-mob.jpg);
-  max-width: 428px;
+  max-width: 767px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
