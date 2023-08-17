@@ -56,9 +56,9 @@
     display: block;
   }
 
-  /* .address-item {
+  .address-item:not(:last-child) {
     margin-bottom: 12px;
-  } */
+  }
 
   .header-nav-link {
     color: #2e2f42;
@@ -249,6 +249,10 @@
   .address-list {
     display: flex;
     gap: 40px;
+  }
+
+  .address-item:not(:last-child) {
+    margin-bottom: 0;
   }
 
   .address-link {
