@@ -1089,6 +1089,7 @@ textarea {
 }
 
 .check-text-label-wrap {
+  margin-right: 8px;
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -1103,7 +1104,6 @@ textarea {
 }
 
 .modal-check:checked + .check-text span {
-  margin-right: 8px;
   border: none;
   background-color: var(--color-ocean);
   fill: var(--color-cloud);
