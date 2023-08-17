@@ -175,10 +175,14 @@ textarea {
   color: var(--color-ocean);
 }
 
-.current {
-  position: relative;
+.mob-menu-link.current {
   color: #404bbf;
 }
+
+/* .current {
+  position: relative;
+  color: #404bbf;
+} */
 
 .current::after {
   content: '';
