@@ -165,12 +165,12 @@
 
   .team-list {
     display: flex;
-    gap: 0 24px;
+    gap: 64px 24px;
   }
 
   .team-item {
     width: calc((100% - 24px) / 2);
-    margin-bottom: 64px;
+    margin-bottom: 0;
   }
 
   .customers-list {

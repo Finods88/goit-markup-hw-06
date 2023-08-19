@@ -335,7 +335,10 @@ textarea {
 
 .mob-media-list {
   display: flex;
-  gap: 56px;
+  max-width: 324px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mob-media-icon {
@@ -488,7 +491,7 @@ textarea {
 */
 .team {
   padding-top: 96px;
-  padding-bottom: 32px;
+  padding-bottom: 96px;
   background-color: var(--color-cloud);
 }
 
@@ -520,9 +523,17 @@ textarea {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-item:last-child {
+  margin-bottom: 0;
+}
+
 .team-container {
   padding: 32px 0;
   margin: 0 auto;
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
